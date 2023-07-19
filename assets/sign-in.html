@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    <!-- font -->
+    
+    <!-- bs-icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- bs-5 -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- my styles  -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- javascript -->
+    <script src="/assets/js/main.js" defer></script>
+
+    <title>LinkedIn</title>
+</head>
+<body>
+
+  <main class="container-md d-flex flex-column justify-content-between sign-in-page">
+      <header>
+        <img style="width: 120px;" class="m-3" src="image/LinkedIn_Logo_2013_(2).svg" alt="">
+    </header>
+
+      <section class="box p-md-3 mx-auto">
+        <h1 class="display-6 mb-1 fw-semibold">Sign in</h1>
+        <p><small class="text-muted">Stay updated on your professional world</small></p>
+
+        <form action="POST" class="mt-3 mb-auto">
+            <div class="box__form-input-group mb-4">
+                <input class="box__form-input" type="email" id="email" value="" required>
+                <label class="box__form-input-label" for="email">Email</label>
+            </div>
+            <div class="box__form-input-group mb-3">
+                <input class="box__form-input" type="password" id="password" value="" required>
+                <label class="box__form-input-label" for="password">Password</label>
+            </div>
+            <a class="box__text"  href="#">Forgot password?</a>
+            <button class="btn btn-primary btn-lg mx-auto w-100 rounded-pill mt-4" type="submit"> Sign in</button>
+        </form>
+
+
+        <div class="mt-3">
+            <div class="box__line text-center">or</div>
+            <button class="btn btn-outline-secondary text-black w-100 rounded-pill my-2"><i class="bi bi-google pe-2"></i>Continue with Google</button>
+            <button  class="btn btn-outline-secondary text-black w-100 rounded-pill my-3"><i class="bi bi-apple pe-2"></i>Sign in with Apple</button>
+        </div>
+        
+      </section>
+
+
+      <footer class="footer mb-3">
+        <ul class="footer__list">
+            <li class="footer__list-item"><img src="image/LinkedIn_Logo.svg" alt=""> &#9426; 2023</li> 
+            <li class="footer__list-item">User Agreement</li>
+            <li class="footer__list-item">Privacy Policy</li>
+            <li class="footer__list-item">Community Guidelines</li>
+            <li class="footer__list-item">Cookie Policy</li>
+            <li class="footer__list-item">Copyright Policy</li>
+            <li class="footer__list-item">Send Feedback</li>
+            <li class="footer__list-item" type="button">language <i class="bi bi-chevron-compact-down"></i></li>
+        </ul>
+      </footer>
+  </main>
+
+    
+</body>
+</html>

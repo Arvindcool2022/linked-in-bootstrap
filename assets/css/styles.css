@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+/* Sign-in page styles */
+
+.sign-in-page{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.5px;
+    min-height: 100vh;
+    /* font-family: 'Poppins', sans-serif; */
+
+}
+
+.box{
+    /* border:2px solid #db27d5; */
+    width: 354px;
+    height:540px;
+    border-radius: 15px;
+    margin-bottom: 20%;
+
+}
+
+
+
+.box__form-input-group {
+    border: 1px solid #666;
+    position: relative;
+    padding: 0.5rem;
+    border-radius: 4px;
+    height: 50px;
+}
+
+.box__form-input {
+    width: 100%;
+    border: 0;
+    font-size: 1.15rem;
+    padding-top: 0.5rem;
+
+    /* padding-bottom:0 ; */
+}
+
+.box__form-input:focus{
+    outline: none;
+}
+
+.box__form-input-label {
+    position: absolute;
+    left: 0.5rem;
+    bottom: 0.5rem;
+    opacity: 0.5;
+    transition: all 250ms ease;
+}
+
+.box__form-input:focus ~ .box__form-input-label,
+.filled ~ .box__form-input-label {
+    opacity: 1;
+    transform: scale(0.7) translate(0,-100%);
+    transform-origin: left;
+}
+
+.box__text {
+    text-decoration: none;
+}
+
+.box__text:hover {
+
+    text-decoration: underline;
+}
+
+.box__line{
+    position: relative;
+}
+
+
+.box__line::before {
+    content: '';
+    position: absolute;
+    width:46%;
+    height: 1px;
+    left: 0;
+    top: 50%;
+    background-color: #00000075;
+}
+
+.box__line::after {
+    content: '';
+    position: absolute;
+    width:46%;
+    height: 1px;
+    right: 0;
+    top: 50%;
+    background-color: #00000075;
+}
+
+
+.footer {
+    display: none;
+    
+}
+
+.footer__list {
+    display: flex;
+    list-style: none;
+    
+    justify-content:space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer__list-item {
+    font-size: 0.75rem;
+    letter-spacing: initial;
+}
+
+.footer__list-item img {
+    max-width: 60px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .box {
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        margin: auto;
+
+    }
+    
+    .footer {
+    display: block;
+
+    }
+}
+
+/* ============================End of Sign in page styles==== k===================== */
+
+
+/* =============================home page======================= */
+

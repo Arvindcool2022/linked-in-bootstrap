@@ -1,0 +1,51 @@
+// .box__form-input {
+//     &::-webkit-input-placeholder {
+//       color: transparent;
+//       -webkit-transition: color 0.2s ease;
+//       transition: color 0.2s ease;
+//     }
+  
+//     &:-moz-placeholder {
+//       /* Firefox 18- */
+//       color: transparent;
+//       -webkit-transition: color 0.2s ease;
+//       transition: color 0.2s ease;
+//     }
+  
+//     &::-moz-placeholder {
+//       /* Firefox 19+ */
+//       color: transparent;
+//       -webkit-transition: color 0.2s ease;
+//       transition: color 0.2s ease;
+//     }
+  
+//     &:-ms-input-placeholder {
+//       color: transparent;
+//       -webkit-transition: color 0.2s ease;
+//       transition: color 0.2s ease;
+//     }
+//   }
+  
+
+@import '../bootstrap/scss/functions';
+@import '../bootstrap/scss/variables';
+@import '../bootstrap/scss/mixins';
+
+
+$custom-colors: (
+    "orange": orange,
+    "green":green
+    );
+    
+    $theme-colors: map-merge($theme-colors, $custom-colors);
+    
+    
+    
+    
+    @import '../bootstrap/scss/bootstrap.scss';
+    
+  
+    
+    
+    
+
