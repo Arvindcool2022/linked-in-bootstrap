@@ -141,5 +141,37 @@
     
 }
 
-.main-nav-list {
+aside {
+    display: none;
+    border: 2px red solid;
 }
+
+.main {
+    background-color: #615db475;
+}
+
+.left-card-1 {
+    background-color: #72a25475;
+    border-radius: 5px;
+
+}
+
+.left-card-2 {
+    display: none;
+    background-color: #a2545475;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 576px) {
+    .left-card-2 {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    aside {
+        display: block;
+    }
+}
+
+
