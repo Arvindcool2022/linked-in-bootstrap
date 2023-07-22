@@ -368,6 +368,14 @@ aside {
     display: none;
 }
 
+.aside__list li {
+    line-height: 1.1;
+}
+
+.aside__list small {
+    font-size: 0.75rem;
+}
+
 
 
 
@@ -378,6 +386,7 @@ aside {
     aside {
         display: block;
     }
+
 }
 
 @media screen and (min-width:1028px) {
