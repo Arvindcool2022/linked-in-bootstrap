@@ -1,2 +1,4 @@
-assets/bootstrap/
+raw-resources/
+.vscode/
 node_modules/
+assets/bootstrap/
